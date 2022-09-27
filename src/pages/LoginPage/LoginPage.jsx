@@ -32,7 +32,7 @@ function Copyright(props) {
       {...props}
     >
       {'Copyright © '}
-      <Link color="inherit" href="https://github.com/RomaSamkov">
+      <Link color="inherit" href="https://github.com/VitaliyYerin">
         My Website
       </Link>{' '}
       {new Date().getFullYear()}
@@ -108,7 +108,7 @@ export default function LoginPage() {
                 Log In
               </Button>
               <Link
-                href="https://romasamkov.github.io/goit-react-hw-08-phonebook/register"
+                href="https://vitaliyyerin.github.io/goit-react-hw-08-phonebook/register"
                 variant="body2"
               >
                 {"Don't have an account? Sign Up"}
