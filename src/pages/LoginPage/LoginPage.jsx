@@ -76,7 +76,7 @@ export default function LoginPage() {
             validationSchema={loginSchema}
           >
             <LoginForm>
-              <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
+              <Avatar sx={{ m: 1, bgcolor: 'red', color: '#fff' }}>
                 <LockOutlinedIcon />
               </Avatar>
               <Typography component="h1" variant="h5">
