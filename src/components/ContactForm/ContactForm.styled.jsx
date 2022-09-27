@@ -4,9 +4,8 @@ export const Form = styled.form`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border: 10px solid rgb(156, 182, 238);
+  border: 2px solid #000;
   padding: 20px;
-  border-radius: 50px;
 `;
 
 export const Label = styled.label`
@@ -38,22 +37,18 @@ export const Button = styled.button`
   padding: 0 10px;
   width: 150px;
   height: 30px;
-  background-color: rgb(133, 180, 222);
+  background-color: #000;
+  color: #fff;
   border: none;
   border-radius: 20px;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
   cursor: pointer;
-  box-shadow: 0px 0px 4px 4px rgba(58, 132, 222, 0.75);
-  -webkit-box-shadow: 0px 0px 4px 4px rgba(58, 132, 222, 0.75);
-  -moz-box-shadow: 0px 0px 4px 4px rgba(58, 132, 222, 0.75);
   &::first-letter {
     text-transform: uppercase;
   }
   &:hover,
   &:focus {
-    color: #fff;
-    background-color: rgb(100, 70, 192);
-    box-shadow: 0px 0px 7px #fff;
+    box-shadow: 2px 3px 5px #000;
   }
 `;
