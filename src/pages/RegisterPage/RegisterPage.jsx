@@ -93,7 +93,7 @@ export default function RegisterPage() {
             Sign Up
           </Button>
           <Link
-            href="https://romasamkov.github.io/goit-react-hw-08-phonebook/login"
+            href="https://vitaliyyerin.github.io/goit-react-hw-08-phonebook/login"
             variant="body2"
           >
             Already have an account? Sign in
