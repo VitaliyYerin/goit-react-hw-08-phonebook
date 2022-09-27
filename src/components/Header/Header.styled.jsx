@@ -29,12 +29,12 @@ export const Title = styled('h2')`
   padding: 10px 25px;
   border-radius: 25px;
   margin: 0;
-  color: #0d6efd;
-  background-color: rgb(221, 216, 236);
+  color: #000;
+  background-color: #fff;
   &:hover,
   :focus {
     color: #fff;
-    background-color: rgb(100, 70, 192);
+    background-color: red;
   }
 `;
 
@@ -49,12 +49,12 @@ export const HeaderLink = styled(NavLink)`
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
-  color: #0d6efd;
-  background-color: rgb(221, 216, 236);
+  color: red;
+  background-color: #000;
   border-radius: 25px;
   &:hover,
   :focus {
     color: #fff;
-    background-color: rgb(100, 70, 192);
+    background-color: red;
   }
 `;
