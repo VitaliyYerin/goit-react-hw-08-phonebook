@@ -11,6 +11,10 @@ export const Container = styled('div')`
   height: 100%;
 `;
 
+export const Message = styled('span')`
+  color: #fff;
+` ;
+
 export const Button = styled('button')`
   width: 40px;
   height: 40px;
@@ -19,13 +23,13 @@ export const Button = styled('button')`
   border-radius: 50%;
   margin-left: 10px;
   padding-top: 3px;
-  color: #0d6efd;
+  color: #000;
   cursor: pointer;
-  background-color: rgb(221, 216, 236);
+  background-color: #fff;
   &:hover,
   &:focus {
     color: #fff;
-    background-color: rgb(100, 70, 192);
+    background-color: red;
   }
 `;
 

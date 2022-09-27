@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { authSelectors, authOperations } from 'redux/auth';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import { Account, Container, Button, CustimIcon } from './UserMenu.styled';
+import { Account, Container, Button, CustimIcon, Message } from './UserMenu.styled';
 import toast from 'react-hot-toast';
 
 const UserMenu = () => {
@@ -11,9 +11,9 @@ const UserMenu = () => {
   return (
     <Container>
       <Account>
-        <AccountCircleIcon sx={{ color: '#0d6efd' }} fontSize="large" />
+        <AccountCircleIcon sx={{ color: '#fff' }} fontSize="large" />
       </Account>
-      <span>Welcome, {name}</span>
+      <Message>Welcome, {name} </Message>
       <Button
         type="button"
         onClick={() => {
