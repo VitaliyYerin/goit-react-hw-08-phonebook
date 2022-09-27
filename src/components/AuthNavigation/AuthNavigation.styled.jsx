@@ -8,14 +8,14 @@ export const StyledLink = styled(NavLink)`
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
-  color: #0d6efd;
-  background-color: rgb(221, 216, 236);
+  color: #000;
+  background-color: #fff;
   border-radius: 25px;
   width: 80px;
   &:hover,
   :focus {
     color: #fff;
-    background-color: rgb(100, 70, 192);
+    background-color: red;
   }
 `;
 
