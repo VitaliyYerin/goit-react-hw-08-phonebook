@@ -11,8 +11,11 @@ export const GlobalStyles = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: normal;
-    background-color: rgb(181, 198, 236);
+    background-color: #000;
+  }
 
+  header {
+    box-shadow: red 0px 15px 10px -15px;
   }
   h1,
   h2,
