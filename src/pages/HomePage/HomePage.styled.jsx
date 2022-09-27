@@ -4,19 +4,19 @@ import { NavLink } from 'react-router-dom';
 export const glow = keyframes`
 from {
     text-shadow:
-  2px 2px 1px rgba(0,0,0,.4),
-  0 0 10px #42A5F5,
-  0 0 30px rgba(33, 150, 243, .75),
-  0 0 50px rgba(33, 150, 243, .75),
-  0 0 60px rgba(33, 150, 243, .75);
+  2px 2px 1px rgba(255,255,255,.4),
+  0 0 10px #fff,
+  0 0 30px rgba(255, 255, 255, .75),
+  0 0 50px rgba(255, 255, 255, .75),
+  0 0 60px rgba(255, 255, 255, .75);
   }
   to {
     text-shadow:
-  2px 2px 1px rgba(0,0,0,.4),
-  0 10 20px #42A5F5,
-  0 8 40px rgba(33, 150, 243, .75),
-  0 0 60px rgba(33, 150, 243, .75),
-  0 0 80px rgba(33, 150, 243, .75);
+  2px 2px 1px rgba(255,255,255,.4),
+  0 10 20px #fff,
+  0 8 40px rgba(255, 255, 255, .75),
+  0 0 60px rgba(255, 255, 255, .75),
+  0 0 80px rgba(255, 255, 255, .75);
   }
   `;
 
@@ -40,13 +40,13 @@ export const AuthLink = styled(NavLink)`
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
   color: #fff;
-  background-color: rgb(100, 70, 192);
+  background-color: #000;
   border-radius: 25px;
   width: 80px;
   &:hover,
   :focus {
-    color: #0d6efd;
-    background-color: rgb(221, 216, 236);
+    color: #000;
+    background-color: #fff;
   }
 `;
 
@@ -55,14 +55,14 @@ export const HomeTitle = styled.h1`
   padding: 10px 25px;
   border-radius: 25px;
   margin: 0;
-  color: #0d6efd;
-  background-color: rgb(221, 216, 236);
+  color: #000;
+  background-color: #fff;
 `;
 
 export const HomeText = styled.p`
   padding: 10px 25px;
   font-family: 'LeHavreLayersDblLine';
-  color: #f51909;
+  color: red;
   margin-top: 50px;
   margin-bottom: 50px;
   animation: ${glow} 1s ease-in-out infinite alternate;
